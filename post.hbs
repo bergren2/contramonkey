@@ -1,0 +1,11 @@
+{{!< default}}
+
+<main>
+{{#post}}
+  <h2>{{title}}</h2>
+  {{content}}
+  {{#author}}
+      <a href="{{url}}">{{name}}</a>
+  {{/author}}
+{{/post}}
+</main>
