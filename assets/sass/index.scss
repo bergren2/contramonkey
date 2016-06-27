@@ -1,2 +1,18 @@
 @import "bourbon/bourbon";
 @import "base/base";
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  line-height: 100vh;
+  font-size: 20vh;
+  color: white;
+}
+
+main {
+  height: 100vh;
+  padding: 8px;
+}

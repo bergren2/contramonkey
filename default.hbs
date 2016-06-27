@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/index.css"}}" />
   </head>
   <body>
-    <header>
+    <header {{#if @blog.cover}} style="background:
+      url({{@blog.cover}}){{else}}no-cover{{/if}} 0/cover no-repeat;">
       <h1>{{@blog.title}}</h1>
     </header>
 

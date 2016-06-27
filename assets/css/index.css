@@ -171,4 +171,17 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+body {
+  margin: 0; }
+
+header {
+  height: 100vh;
+  line-height: 100vh;
+  font-size: 20vh;
+  color: white; }
+
+main {
+  height: 100vh;
+  padding: 8px; }
+
 /*# sourceMappingURL=index.css.map */
